@@ -66,7 +66,7 @@
     color: white;
     padding: 3px 20px 3px 20px;
     border: 1px solid rgb(236, 232, 224);
-    background: rgba(2, 36, 17, 0.6);
+    background: rgba(5, 113, 14, 0.6);
     font-size: 1.5rem;
     text-decoration: none;
    
@@ -99,24 +99,38 @@
 
 
 .card-container{
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
     
-    display: flex;
+    
     justify-content: center;
     margin-top: 100px;
     flex-wrap: wrap;
    
 }
-#card{
-    display: flex;
+.card img{
+    width: 350px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 h5{
     color: red;
 }
 #honey{
     text-align: center;
+    margin-top: 10px;
+}
+.card-content{
+    text-align: center;
 }
 #images{
-    width: 100px;
+    width: 50px;
     height: 50px;
 }
 h1{
@@ -162,5 +176,58 @@ h1{
     width: 150px;
     height: 150px;
 }
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+#card-container2{
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    
+    
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    border-radius: 2px;
+
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card1 img{
+    display: flex;
+    width: 250px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.card2 img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+#north{
+    margin-bottom: 10px;
+}
+
+.card2-item{
+    text-align: center;
+    font-weight:bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
     
